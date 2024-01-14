@@ -27,7 +27,7 @@ class Webtoon extends StatelessWidget {
       child: Column(
         children: [
           Hero(
-            tag: id,
+            tag: thumb,
             child: Container(
               clipBehavior: Clip.hardEdge,
               decoration: BoxDecoration(
