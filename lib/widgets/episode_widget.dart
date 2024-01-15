@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:toonflix/models/webtoon_episode_model.dart';
 import 'package:url_launcher/url_launcher_string.dart';
-import 'package:intl/intl.dart';
 
 class Episode extends StatelessWidget {
   const Episode({

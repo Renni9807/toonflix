@@ -7,6 +7,8 @@ class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
   final Future<List<WebtoonModel>> webtoons = ApiService.getTodaysToons();
+  final bool isFavorite = false;
+
   // List<WebtoonModel> webtoons = [];
   @override
   Widget build(BuildContext context) {
