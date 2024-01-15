@@ -3,7 +3,7 @@
 representing webtoons using API
 
 API - given by nomadcoders
-https://webtoon-crawler.nomadcoders.workers.dev
+
 The given url is supported by Nico(nomadcoders) and only used in educational purpose
 
 copyright of webtoon service in Naver
