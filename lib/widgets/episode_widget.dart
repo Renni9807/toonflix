@@ -13,13 +13,6 @@ class Episode extends StatelessWidget {
   final WebtoonEpisodeModel episode;
   final String webtoonId;
 
-  String getDayOfToday() {
-    var now = DateTime.now().toUtc().add(const Duration(hours: 9)); // 한국은 UTC+9
-    var formatter = DateFormat('EEEE', 'en'); // 'ko_KR'은 한국어를 나타냅니다.
-    String formatted = formatter.format(now);
-    return formatted;
-  }
-
   onButtonTap() async {
     await launchUrlString(
         "https://comic.naver.com/webtoon/detail?titleId=$webtoonId&no=${episode.id}&week");
